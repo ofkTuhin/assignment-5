@@ -8,10 +8,28 @@ const geatMeal=mealItem=>{
  for(let i=0;i<mealItems.length;i++){
 
     const foodItem=mealItems[i]
-   const ul=document.getElementById('ul')
-   const li=document.createElement('li')
-   li.innerText=foodItem.strMeal
-   ul.appendChild(li)
+   const foods=document.getElementById('foods')
+
+    foods.className="foods"
+
+   const foodDetail=document.createElement('div')
+   foods.appendChild(foodDetail)
+   foodDetail.className='foodDetail'
+
+
+   const itemImg=document.createElement('img')
+   itemImg.src=foodItem.strMealThumb
+   foodDetail.appendChild(itemImg)
+
+  //  foodDetail.innerHTML=foodItem.strMeal
+   const itemDetail=document.createElement('h5')
+   itemDetail.innerText=foodItem.strMeal
+   foodDetail.appendChild(itemDetail)
+
+   
+
+
+  
 
 
  }
