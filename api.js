@@ -36,6 +36,11 @@ const geatMeal=mealItem=>{
       
   };
 
+  document.getElementById('submit').addEventListener('click',function(){
+   const meal=document.getElementById('mealDiv')
+   meal.style.display='block'
+  })
+
 
   fetch('https://www.themealdb.com/api/json/v1/1/filter.php?i=chicken_breast')
 .then(res=>res.json())

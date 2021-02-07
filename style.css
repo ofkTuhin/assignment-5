@@ -22,3 +22,19 @@
     text-align: center;
     margin: 32px 0px;
 }
+#mealDiv{
+    display: none;
+}
+#food{
+    width: 300px;
+    padding: 10px;
+    border: none;
+    background: #4858530f;
+    border-radius: 5px;
+}
+#submit{
+    padding: 10px 30px;
+    border: none;
+    background: #e84c4c8a;
+    border-radius: 5px;
+}
