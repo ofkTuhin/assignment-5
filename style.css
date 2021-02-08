@@ -13,7 +13,7 @@
     background: #87caca;
     padding: 25px;
     border-radius: 10px;
-    /* display: none; */
+    display: none;
 }
 .foodDetail img{
     width: 100%;
@@ -38,4 +38,27 @@
     border: none;
     background: #e84c4c8a;
     border-radius: 5px;
+}
+/* .itemdes{
+    width: 22%;
+    margin: 10px 30px;
+    background: #becfcf;
+    padding: 25px;
+    border-radius: 10px;
+    display: none;
+} */
+img{
+    width: 100%;
+}
+h5{
+    font-size: 20px;
+}
+h3{
+    font-size: 20px;
+    color: brown;
+}
+#erormsg{
+    display: none;
+    text-align: center;
+    color: red;
 }
