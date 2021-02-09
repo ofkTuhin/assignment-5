@@ -62,3 +62,7 @@ h3{
     text-align: center;
     color: red;
 }
+#error{
+    display: none;
+    text-align: center;
+}
